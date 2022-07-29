@@ -87,7 +87,7 @@ class LinkedList: #LinkedList is a collection of nodes
         for data in data_list:
             self.insert_at_end(data)
 
-    def insert_after_value(self,data_after,data_to_insert):
+    def insert_after_value(self,data_after,data_to_insert): #insert value after specified value
         if self.head is None:
             return
         
@@ -103,7 +103,7 @@ class LinkedList: #LinkedList is a collection of nodes
             
             itr = itr.next
 
-    def remove_by_value(self,data):
+    def remove_by_value(self,data): #remove element by value not index
         if self.head is None:
             return
         
