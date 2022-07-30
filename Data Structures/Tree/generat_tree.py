@@ -5,8 +5,9 @@ from platform import node
 from tenacity import retry_never
 
 '''General tree implementation from scratch == '''
-'''                                        Electronics(root,level 0)               
-                                                |
+'''                                        Electronics(root,level 0)    
+                             /                   |                                 \
+                            /                    |                                  \
                 Laptop(node,level 1)          Mobile(node,level 1)           Tv((node,level 1) )
                   |                             |                             |  
     [Mac] [Surface] [Thinkpad]         [Apple] [Samsung] [Mi]           [Samsung] [LG]
